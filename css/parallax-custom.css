@@ -1,0 +1,99 @@
+ body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  transform: translate(-0,-50%);
+  -webkit-transform: translate(-0,-50%);
+  -moz-transform: translate(-0,-50%);
+}
+
+.caption span.border {
+  background-color: #889;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+ #sec_{ 
+      background:url('../images/1-8.jpg') no-repeat center center;
+      background-size:cover;
+      position:relative;
+      background-attachment: fixed;
+      min-height: 100vh !important;
+} 
+
+ #sec_::before{
+    content: "";
+    mix-blend-mode: lighten;
+    position: absolute;
+    background: seagreen;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+ #intro{ 
+      background:url('../images/2-2.jpg') no-repeat center center;background-size:cover;
+      position:relative;
+      background-attachment: fixed;
+      min-height: 100vh !important;
+} 
+
+ #intro::before{
+    content: "";
+    /* mix-blend-mode: hue; */
+    position: absolute;
+    /* background: blue; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/overlay1.png);
+    background-repeat: repeat;
+ 
+    } 
+
+ #swag{
+      min-height: 100vh !important;
+      background:url('../images/1-2.jpg') no-repeat center center;background-size:cover;
+      position:relative;
+      background-attachment: fixed
+} 
+ #swag::before{
+    content: "";
+     mix-blend-mode: saturation;
+    position: absolute;
+    background: red;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
